@@ -26,4 +26,46 @@ Margins, paddings, and borders.
  - Apply at least 3 different selectors.
  - Improve readability and aesthetics.
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Page</title>
+    <!-- Link to External CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="main-header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+
+    <section class="content">
+        <h2>About Us</h2>
+        <p>We are a creative agency that specializes in web development and design.</p>
+    </section>
+
+    <section>
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>SEO Optimization</li>
+            <li>Brand Identity</li>
+        </ul>
+    </section>
+
+    <section>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image" class="image-style">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Creative Agency</p>
+    </footer>
+    
+</body>
+</html>
+
 Happy Coding! 💻✨
